@@ -7,7 +7,7 @@ public class Pizza {
 
   public static String[] pizzaMenu = {
       "ALL MEAT PIZZA",
-      "CALIFORNIA VEGGIE",
+      "RIMAC VEGGIE",
       "GARLIC CHICKEN"
   };
 
