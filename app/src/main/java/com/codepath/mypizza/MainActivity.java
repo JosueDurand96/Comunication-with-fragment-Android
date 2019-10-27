@@ -17,9 +17,6 @@ public class MainActivity extends AppCompatActivity  implements PizzaMenuFragmen
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-
-    Log.d("DEBUG", getResources().getConfiguration().orientation + "");
-
     if (savedInstanceState == null) {
       // Instance of first fragment
       PizzaMenuFragment firstFragment = new PizzaMenuFragment();
@@ -28,6 +25,7 @@ public class MainActivity extends AppCompatActivity  implements PizzaMenuFragmen
       FragmentTransaction ft = getSupportFragmentManager().beginTransaction();// begin  FragmentTransaction
       ft.add(R.id.flContainer, firstFragment);                                // add    Fragment
       ft.commit();                                                            // commit FragmentTransaction
+
     }
 
     if(getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
