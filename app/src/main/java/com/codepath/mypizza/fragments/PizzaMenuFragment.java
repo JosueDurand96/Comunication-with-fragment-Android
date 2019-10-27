@@ -14,9 +14,7 @@ import android.widget.ListView;
 import com.codepath.mypizza.R;
 import com.codepath.mypizza.data.Pizza;
 
-/**
- * Created by Shyam Rokde on 8/5/16.
- */
+
 public class PizzaMenuFragment extends Fragment {
 
 
